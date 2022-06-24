@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=PT+Sans&display=swap");
+
+* {
+  font-family: Montserrat, sans-serif;
+  color: rgb(77, 67, 67);
+}
+
+body {
+  background-image: url(unsplash.jpg);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+  height: 500px;
+}
+
+.card {
+  margin-top: 5rem;
+  padding: 2rem;
+  height: 400px;
+
+  -webkit-backdrop-filter: blur(11px) saturate(179%);
+  backdrop-filter: blur(11px) saturate(179%);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.search {
+  margin: 0 auto;
+  padding-top: 1rem;
+  gap: 5px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #5cb5f5;
+  cursor: pointer;
+}
+
+.search__city {
+    margin: 4rem;
+}
+
+.error {
+  margin-top: 5rem;
+}
+
+.location {
+  margin-top: 1.5rem;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp h1 {
+  font-size: xx-large;
+}
+
+.temp span {
+  font-size: x-large;
+}
+
+.description {
+  margin-top: 2rem;
+}
+
+.description h2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}

@@ -1,0 +1,8 @@
+Marvel api public key
+5f82502d0b5e76525c389216f7cd4fe8
+
+MArvel private key
+1cc04ecd8d6ea0225b7fc0a2bc9ad21588fcf1cf
+
+Football api key
+1caa35c8370fd2c4774f76e4db6a05a3ff43c317f6275bb8c2e0e25edf93f038
